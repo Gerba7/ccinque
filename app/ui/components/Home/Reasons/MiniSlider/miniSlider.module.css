@@ -1,0 +1,259 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow {
+    font-size: 48px;
+}
+
+.arrowLeft,
+.arrowRight {
+    width: 55px;
+    height: 55px;
+    background-color: #344b6be0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 4;
+}
+
+.arrowLeft {
+    background-color: transparent;
+    left: 25px;
+}
+
+.arrowRight {
+    right: 25px;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    opacity: 1;
+}
+
+.slide {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.top {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    color: var(--brandIn);
+    z-index: 10;
+    left: 10vw;
+    top: 10vh;
+}
+
+.titleTop {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: start;
+}
+
+.paragraph {
+    font-size: 24px;
+}
+
+.textContainer {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 7;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(219, 191, 132, 1) 0%, rgba(219, 191, 132, 1) 40%, rgba(219, 191, 132, 0.8) 100%);
+    /* background-color: #dbbf84; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.texts {
+    position: absolute;
+    width: 90%;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    z-index: 8;
+    color: var(--brandIn);
+}
+
+.triangle {
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 45%;
+    margin: -.5px;
+    background-color: #DBBF84;
+    opacity: .8;
+    z-index: 7;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 10vw;
+    color: var(--brandIn);
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 10vw;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.backgroundImg {
+    width: 60%;
+    height: 100%;
+    margin-left: 40%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.imgContainer {
+    display: flex;
+    flex: 1;
+    height: 80vh;
+    justify-content: center;
+}
+
+.infoContainer {
+    flex: 1;
+    padding: 50px;
+    color: #fff;
+    background: rgb(0,19,25);
+    background: linear-gradient(90deg, rgba(0,19,25,0.7035189075630253) 0%, rgba(0,0,0,0.5410539215686274) 56%, rgba(224,244,252,0) 100%);
+}
+
+.h1 {
+    font-size: 70px;
+}
+
+.description {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.buttonLink {
+    padding: 15px 10px 10px 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.buttonLink:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.dotsContainer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 5px;
+    height: 30px;
+    z-index: 8;
+    background-color: 'transparent';
+    width: 45%;
+}
+
+.dot {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 15px;
+    background-color: #fff;
+}
+
+.dotActive {
+    background-color: #232a34e0;
+    scale: 1.5;
+}
+
+
+@media (max-width: 699px) {
+
+    .slide {
+        width: 100vw;
+    }
+
+    .dotsContainer {
+        display: none;
+    }
+
+}
+
+
+@media (max-height: 700px) and (min-width: 1000px) {
+    
+    .slide {
+        width: 100vw;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 999px) {
+
+    .slide {
+        width: 100vw;
+    }
+
+}

@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    background-color:  var(--brandIn);
+    padding: 5vh 5vw;
+    color: var(--textBright);
+    width: 100vw;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.title {
+    display: none;
+}
+
+.left {
+    flex: 1;
+    background-color: var(--text);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contactTitle {
+    font-size: 24px;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: row;
+}
+
+.socialIcon {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.linkedin:hover {
+    background-color: #0e76a8; 
+}
+
+.facebook:hover {
+    background-color: #3B5999;
+}
+
+.instagram:hover {
+    background-color: #E4405F;
+}
+
+
+@media (max-width: 600px) {
+
+    .left {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+}

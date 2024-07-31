@@ -1,0 +1,28 @@
+.container {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg);
+    color: #fff;
+    /* padding: 10vh 15vw; */
+    justify-content: center;
+    position: relative;
+    padding: 0 15vw 10vh 15vw;
+    /* background-image: url('../../../../../public/images/howwework.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+}
+
+.mapContainer {
+    flex: 1;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.contactContainer {
+    flex: 1;
+    height: 100%;
+    background-color: var(--BrandLight);
+}
