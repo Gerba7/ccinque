@@ -45,6 +45,7 @@
     font-size: 14px;
     color: var(--BrandDark);
     font-weight: 500;
+    opacity: 0;
 }
 
 .title {
@@ -52,6 +53,7 @@
     font-weight: 500;
     margin-bottom: 2vh;
     animation-delay: .3s;
+    opacity: 0;
 }
 
 .description {
@@ -63,6 +65,7 @@
     text-align: center;
     margin-bottom: 5vh;
     animation-delay: .6s;
+    opacity: 0;
 }
 
 @keyframes widthIn {
