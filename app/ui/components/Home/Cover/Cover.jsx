@@ -20,7 +20,7 @@ const Cover = () => {
         </div>
         <div className={styles.coverLogo}>
           <Image src={Cristina_Cinque_Logo} className={styles.img} alt='Cristina_Cinque_Logo' height={200} width={'auto'} />
-          <h2 className={greatv.className} style={{fontSize: '48px', filter: 'drop-shadow(15px 5px 5px rgba(0, 0, 0, 1)),', margin: '20px'}}>Dra. Cristina Cinque</h2>
+          <h2 className={`${greatv.className} ${styles.title}`}>Dra. Cristina Cinque</h2>
         </div>
       </div>
       {/* <Link className={styles.link} href="#quienes-somos" aria-label='linkArrow'>
