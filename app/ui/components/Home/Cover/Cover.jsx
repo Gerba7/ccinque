@@ -19,7 +19,7 @@ const Cover = () => {
           <Image className={styles.backgroundImage} src={Cristina_Cinque_Cover} alt='Sabbia cover' width={'100%'} height={'auto'} priority />
         </div>
         <div className={styles.coverLogo}>
-          <Image src={Cristina_Cinque_Logo} className={styles.img} alt='Cristina_Cinque_Logo' height={200} width={'auto'} />
+          <Image src={Cristina_Cinque_Logo} className={styles.img} alt='Cristina_Cinque_Logo' height={170} width={'auto'} />
           <h2 className={`${greatv.className} ${styles.title}`}>Dra. Cristina Cinque</h2>
         </div>
       </div>
