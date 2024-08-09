@@ -87,3 +87,13 @@
     border: 1px solid var(--BrandDark);
     color: var(--BrandDark);
 }
+
+
+@media  (max-width: 799px) {
+
+    .top {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 4vw;
+    }
+
+}

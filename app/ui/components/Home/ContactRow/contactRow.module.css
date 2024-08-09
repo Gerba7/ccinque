@@ -184,6 +184,10 @@
         padding: 10vh 5vw;
     }
 
+    .right {
+        flex: 1.5;
+    }
+
 }
 
 

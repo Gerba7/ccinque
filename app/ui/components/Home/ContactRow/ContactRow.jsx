@@ -1,11 +1,5 @@
-import ContactButton from './ContactButton/ContactButton';
 import styles from './contactRow.module.css';
-import Image from 'next/image';
 import Form from './Form/Form';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailIcon from '@mui/icons-material/Email';
 

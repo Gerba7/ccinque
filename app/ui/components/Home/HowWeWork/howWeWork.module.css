@@ -1,5 +1,5 @@
 .container {
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: var(--bgDark);
@@ -61,7 +61,7 @@
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 0.25s;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .paragraph2 {
@@ -77,7 +77,7 @@
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 0.75s;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .paragraph3 {
@@ -118,20 +118,36 @@
 }
 
 .width {
-    width: 50vw;
+    width: 40vw;
 }
 
 
 @media  (max-width: 799px) {
 
+    .wrapper {
+        align-items: center;
+    }
+
+    .texts {
+        align-items: center;
+    }
+
     .paragraph1 {
         font-size: 16px;
         transform: translateX(50%);
+        text-align: center;
     }
     
     .paragraph2 {
         font-size: 16px;
         transform: translateX(50%);
+        text-align: center;
+    }
+
+    .paragraph3 {
+        font-size: 16px;
+        transform: translateX(50%);
+        text-align: center;
     }
     
     .titles {
@@ -147,6 +163,36 @@
     .slideIn {
         opacity: 1;
         transform: translateX(0%);
+    }
+
+    .hr {
+        align-self: center;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container {
+        padding: 10vh 10vw;
     }
 
 }

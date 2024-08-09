@@ -59,10 +59,10 @@ const WhoWeAre = () => {
                 </p>
             </div>
             <div className={styles.right}>
+                <div className={`${styles.imgContainer} ${animate ? styles.slideIn : ''}`}>
+                    <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dra. Cristina Cinque' priority height={1000} />
+                </div>
             </div>
-        </div>
-        <div className={`${styles.imgContainer} ${animate ? styles.slideIn : ''}`}>
-            <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dra. Cristina Cinque' priority height={1000} />
         </div>
     </div>
   )

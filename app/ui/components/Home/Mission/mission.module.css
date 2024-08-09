@@ -32,6 +32,15 @@
     border-bottom-right-radius: 32px;
 }
 
+@keyframes visibleAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .subtitle {
     font-size: 14px;
     color: var(--BrandDark);
@@ -42,6 +51,7 @@
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 2vh;
+    animation-delay: .3s;
 }
 
 .description {
@@ -52,12 +62,79 @@
     word-spacing: 1px;
     text-align: center;
     margin-bottom: 5vh;
+    animation-delay: .6s;
+}
+
+@keyframes widthIn {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 7vw;
+    }
 }
 
 .hr {
-    width: 5vw;
     height: 1px;
     background-color: var(--BrandDark);
     border: none;
     align-self: center;
+    animation-delay: 1.5s;
+}
+
+.width {
+    animation: widthIn .5s ease-in-out forwards;
+}
+
+.visible {
+    animation: visibleAnimation 1s ease-in-out forwards;
+}
+
+
+@media  (max-width: 799px) {
+    
+    .container {
+        padding: 10vh 5vw;
+    }
+
+    .description {
+        font-size: 16px;
+        width: 80%;
+
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
+    .description {
+        width: 70%;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
 }

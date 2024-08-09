@@ -48,6 +48,9 @@ const Office = () => {
         <div className={styles.scrollOffset} id='consultorio'></div>
         <div className={styles.wrapper} ref={animationRef}>
             <div className={styles.left}>
+                <div className={`${styles.imgContainer} ${animate ? styles.slideIn : ''}`}>
+                    <Image src={Consultorio} className={styles.img} alt='Dra. Cristina Cinque' priority />
+                </div>
             </div>
             <div className={styles.right}>
                 <h3 className={styles.subtitle}>NUESTRO</h3>
@@ -60,9 +63,6 @@ const Office = () => {
                     Contamos así mismo, con las medidas de bioseguridad vigentes para el ejercicio de la profesion.
                 </p>
             </div>
-        </div>
-        <div className={`${styles.imgContainer} ${animate ? styles.slideIn : ''}`}>
-            <Image src={Consultorio} className={styles.img} alt='Dra. Cristina Cinque' priority />
         </div>
     </div>
   )

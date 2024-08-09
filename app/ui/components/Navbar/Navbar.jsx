@@ -7,6 +7,7 @@ import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { usePathname, useRouter } from 'next/navigation';
+import Cristina_Cinque_Logo from '../../../../public/images/LOGOCC.png';
 
 
 
@@ -59,10 +60,10 @@ const Navbar = () => {
                               :  <CloseIcon color="#fff" style={{fontSize: 'inherit'}} /> }
                 </div>
               </div>
-              {/* <Link href='/'>
+              <Link href='/'>
                   <h1 className={styles.title}>Cristina Cinque</h1>
-                  <Image className={styles.logoNavbar} src={Abya_Logo} alt='logo Sergio Braggio Abya' width={navHeight ? 70 : 100} height={navHeight ? 70 : 100} priority />
-              </Link> */}
+                  <Image className={styles.logoNavbar} src={Cristina_Cinque_Logo} alt='Cristina_Cinque_Logo' width={'auto'} height={navHeight ? 50 : 70} priority />
+              </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
               <Link href='#inicio' className={styles.link}>Inicio</Link>

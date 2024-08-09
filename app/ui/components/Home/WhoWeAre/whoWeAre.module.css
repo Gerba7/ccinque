@@ -22,6 +22,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2vh;
 }
 
@@ -65,10 +66,11 @@
 
 .imgContainer {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
     top: 0;
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px;
     opacity: 0;
     overflow: hidden;
     will-change: opacity right;
@@ -85,4 +87,101 @@
 
 .slideIn {
     animation: slideInAnimation .5s ease-in-out forwards;
+}
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        height: 100vh;
+        padding: 5vh 5vw;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .left {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .title {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .description {
+        width: 85%;
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+    .subtitle {
+        width: 80%;
+    }
+    
+    .title {
+        width: 80%;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
+    .subtitle {
+        width: 80%;
+    }
+    
+    .title {
+        width: 80%;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
+    .subtitle {
+        width: 70%;
+    }
+    
+    .title {
+        width: 70%;
+    }
+
+    .description {
+        width: 70%;
+    }
+
 }

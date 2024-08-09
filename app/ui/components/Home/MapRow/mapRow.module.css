@@ -26,3 +26,16 @@
     height: 100%;
     background-color: var(--BrandLight);
 }
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .mapContainer {
+        margin-top: 5vh;
+    }
+
+}

@@ -56,7 +56,7 @@ const HowWeWork = () => {
           <h2 className={`${styles.titles2} ${animate ? styles.slideIn : ''}`}>COMPROMETIDOS</h2>
           <p className={`${styles.paragraph3} ${animate ? styles.slideIn : ''}`}>con capacitaciones constantes para lograr la mejor atención</p>
         </div>
-        <Link href='#contact' className={styles.button}>Contactanos</Link>
+        <Link href='#contacto' className={styles.button}>Contactanos</Link>
         <hr className={`${styles.hr} ${animate ? styles.width : ''}`} />
       </div>
     </div>
