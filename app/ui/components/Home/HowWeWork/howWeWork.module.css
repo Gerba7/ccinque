@@ -1,16 +1,16 @@
 .container {
     height: 100%;
     display: flex;
-    flex-direction: column;
-    background-color: var(--bgDark);
+    flex-direction: row;
+    background-color: #ffffff;
     color: #222222;
     padding: 10vh 15vw;
     justify-content: center;
     position: relative;
-    background-image: url('../../../../../public/images/working.jpg');
+    /* background-image: url('../../../../../public/images/working.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .back {
@@ -37,6 +37,7 @@
 }
 
 .wrapper {
+    flex: 2;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -50,14 +51,14 @@
 }
 
 .paragraph1 {
-    font-size: 24px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity .3s ease-out;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .titles {
-    font-size: 40px;
+    font-size: 36px;
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 0.25s;
@@ -65,15 +66,15 @@
 }
 
 .paragraph2 {
-    font-size: 24px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 0.5s;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .titles2 {
-    font-size: 40px;
+    font-size: 36px;
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 0.75s;
@@ -81,11 +82,11 @@
 }
 
 .paragraph3 {
-    font-size: 24px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 1s;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .slideIn {
@@ -111,18 +112,44 @@
     height: 1px;
     background-color: var(--BrandDark);
     border: none;
-    align-self: flex-end;
+    align-self: flex-start;
     transition: width .3s ease-out;
     transition-delay: 0.3s;
     will-change: width;
 }
 
 .width {
-    width: 40vw;
+    width: 25vw;
+}
+
+.right {
+    flex: 1;
+}
+
+.wrapperRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
 }
 
 
 @media  (max-width: 799px) {
+
+    .container {
+        height: 110vh;
+        padding: 10vh 5vw;
+    }
 
     .wrapper {
         align-items: center;
@@ -130,6 +157,7 @@
 
     .texts {
         align-items: center;
+        width: 80%;
     }
 
     .paragraph1 {
@@ -169,12 +197,51 @@
         align-self: center;
     }
 
+    .wrapperRight{
+        position: absolute;
+        bottom: 0;
+        top: 60vh;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 50%;
+        -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+        mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+    }
+    
+    .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+
 }
 
 @media (min-width: 800px) and (max-width: 999px) {
 
     .container {
         padding: 10vh 5vw;
+    }
+
+    .paragraph1 {
+        font-size: 16px;
+    }
+    
+    .paragraph2 {
+        font-size: 16px;
+    }
+
+    .paragraph3 {
+        font-size: 16px;
+    }
+    
+    .titles {
+        font-size: 28px;
+    }
+    
+    .titles2 {
+        font-size: 28px;
     }
 
 }
@@ -186,6 +253,26 @@
         padding: 10vh 5vw;
     }
 
+    .paragraph1 {
+        font-size: 16px;
+    }
+    
+    .paragraph2 {
+        font-size: 16px;
+    }
+
+    .paragraph3 {
+        font-size: 16px;
+    }
+    
+    .titles {
+        font-size: 32px;
+    }
+    
+    .titles2 {
+        font-size: 32px;
+    }
+
 }
 
 
@@ -193,6 +280,26 @@
 
     .container {
         padding: 10vh 10vw;
+    }
+
+    .paragraph1 {
+        font-size: 20px;
+    }
+    
+    .paragraph2 {
+        font-size: 20px;
+    }
+
+    .paragraph3 {
+        font-size: 20px;
+    }
+    
+    .titles {
+        font-size: 36px;
+    }
+    
+    .titles2 {
+        font-size: 36px;
     }
 
 }

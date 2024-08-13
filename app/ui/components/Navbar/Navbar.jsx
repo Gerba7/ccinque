@@ -55,14 +55,14 @@ const Navbar = () => {
         <div className={styles.wrapper}>
           <div className={styles.left}>
               <div className={styles.burger} onClick={e => toggleMenu(e)}> 
-                <div className={styles.menuItem} style={{color: navHeight && '#06a3da'}}>
+                <div className={styles.menuItem} style={{color: navHeight && '#788586'}}>
                   {displayMenu ?  <MenuIcon color='inherit' style={{fontSize: 'inherit'}} /> 
                               :  <CloseIcon color='inherit' style={{fontSize: 'inherit'}} /> }
                 </div>
               </div>
-              <Link href='/'>
+              <Link className={styles.logoLink} href='/'>
                   <h1 className={styles.title}>Cristina Cinque</h1>
-                  <Image className={styles.logoNavbar} src={Cristina_Cinque_Logo} alt='Cristina_Cinque_Logo' width={'auto'} height={navHeight ? 50 : 70} priority />
+                  <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={Cristina_Cinque_Logo} alt='Cristina_Cinque_Logo' width={'auto'} height={navHeight ? 50 : 70} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>

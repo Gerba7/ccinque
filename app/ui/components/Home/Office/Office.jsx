@@ -54,7 +54,7 @@ const Office = () => {
             </div>
             <div className={styles.right}>
                 <h3 className={styles.subtitle}>NUESTRO</h3>
-                <h1 className={styles.title}>Consultorio</h1>
+                <h1 className={styles.title}>CONSULTORIO</h1>
                 <p className={styles.description}>
                     Prestamos un servicio eficiente basado en nuestra amplía trayectoria profesional,
                     brindando la mejor asistencia de manera responsable, eficiente y profesional.  

@@ -49,7 +49,7 @@ const WhoWeAre = () => {
         <div className={styles.wrapper} >
             <div className={styles.left}>
                 <h3 className={styles.subtitle}>QUIENES SOMOS</h3>
-                <h1 className={styles.title}>Dra. Cristina Cinque</h1>
+                <h1 className={styles.title}>DRA. CRISTINA CINQUE</h1>
                 <p className={styles.description} ref={animationRef}>
                     Odontologa Cristina Cinque
                     Egresada de la uba en el año 1985.

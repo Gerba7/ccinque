@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import styles from './howWeWork.module.css';
 import { useEffect, useRef, useState } from 'react';
-
+import Image from 'next/image';
+import Consultorio from '../../../../../public/images/Consultorio.jpg';
 
 
 
@@ -46,7 +47,7 @@ const HowWeWork = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.back} />
+      {/* <div className={styles.back} /> */}
       <div className={styles.scrollOffset} id='quienes-somos'></div>
       <div className={styles.wrapper} ref={animationRef}>
         <div className={styles.texts}>
@@ -57,7 +58,10 @@ const HowWeWork = () => {
           <p className={`${styles.paragraph3} ${animate ? styles.slideIn : ''}`}>con capacitaciones constantes para lograr la mejor atención</p>
         </div>
         <Link href='#contacto' className={styles.button}>Contactanos</Link>
-        <hr className={`${styles.hr} ${animate ? styles.width : ''}`} />
+        {/* <hr className={`${styles.hr} ${animate ? styles.width : ''}`} /> */}
+      </div>
+      <div className={styles.wrapperRight}>
+        <Image src={Consultorio} className={styles.img} width={500} height={300} />
       </div>
     </div>
   )
