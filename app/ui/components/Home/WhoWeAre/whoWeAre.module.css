@@ -132,7 +132,35 @@
 
 }
 
-@media (min-width: 800px) and (max-width: 999px) {
+
+@media (min-width: 800px) and (max-width: 928px) {
+
+    .container {
+        padding: 5vh 5vw;
+    }
+
+    .wrapper {
+        gap: 1vw;
+    }
+
+    .subtitle {
+        width: 90%;
+    }
+    
+    .title {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .description {
+        font-size: 14px;
+        width: 85%;
+    }
+
+}
+
+
+@media (min-width: 929px) and (max-width: 999px) {
 
     .container {
         padding: 5vh 5vw;
