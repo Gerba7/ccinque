@@ -29,6 +29,7 @@
     height: 100vh;
     display: flex;
     overflow: hidden;
+    opacity: 0;
     z-index: 2;
     animation: resize 3s ease forwards;
     animation-delay: 1s;
