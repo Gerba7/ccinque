@@ -53,7 +53,6 @@ const Mission = () => {
               Así mismo también se realizas tratamientos correctivos y restauradores 
               abarcando las distintas especialidades de la profesión.
             </p>
-            <hr className={`${styles.hr} ${animate ? styles.width : ''}`} />
         </div>
     </div>
   )

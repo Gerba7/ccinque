@@ -50,16 +50,18 @@ const HowWeWork = () => {
       {/* <div className={styles.back} /> */}
       <div className={styles.scrollOffset} id='quienes-somos'></div>
       <div className={styles.wrapper} ref={animationRef}>
+        <h1 className={styles.title}>QUIENES SOMOS</h1>
         <div className={styles.texts}>
-          <p className={`${styles.paragraph1} ${animate ? styles.slideIn : ''}`}>Somos un equipo de</p>
-          <h2 className={`${styles.titles} ${animate ? styles.slideIn : ''}`}>ODONTOLOGOS</h2>
-          <p className={`${styles.paragraph2} ${animate ? styles.slideIn : ''}`}>egresados de la UBA especialistas en distintas áreas</p>
-          <h2 className={`${styles.titles2} ${animate ? styles.slideIn : ''}`}>COMPROMETIDOS</h2>
-          <p className={`${styles.paragraph3} ${animate ? styles.slideIn : ''}`}>con capacitaciones constantes para lograr la mejor atención</p>
+          <p className={`${styles.paragraph1} ${animate ? styles.slideIn : ''}`}>Somos un equipo de Odontologos egresados</p>
+          {/* <h2 className={`${styles.titles} ${animate ? styles.slideIn : ''}`}></h2> */}
+          <p className={`${styles.paragraph2} ${animate ? styles.slideIn : ''}`}>de la UBA especialistas en distintas áreas comprometidos</p>
+          {/* <h2 className={`${styles.titles2} ${animate ? styles.slideIn : ''}`}></h2> */}
+          <p className={`${styles.paragraph3} ${animate ? styles.slideIn : ''}`}>con capacitaciones constantes para lograr la mejor atención.</p>
         </div>
         <Link href='#contacto' className={styles.button}>Contactanos</Link>
         {/* <hr className={`${styles.hr} ${animate ? styles.width : ''}`} /> */}
       </div>
+      <div className={styles.right}></div>
       <div className={styles.wrapperRight}>
         <Image src={Consultorio} className={styles.img} width={500} height={300} />
       </div>

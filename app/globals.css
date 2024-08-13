@@ -1,8 +1,17 @@
 :root {
   --bg: #ffffff;  /* f5f5f5 */
-  --BrandLight: #edf4fb;
-  --BrandDark: #788586;  /* #06a3da */
-  --text: #222222;
+  --BrandLight: #AFC8CB;  /*  #edf4fb */
+  --BrandDark: #828C8D;  /* #06a3da */
+  --text: #202A2C;   /* #222222 */
+
+  --paragraph2: 12px;
+  --title2: 24px;
+  --topTitle2: 12px;
+
+  --paragraph: 1rem;
+  --title: 2rem;
+  --topTitle: 1rem;
+
 }
 
 * {

@@ -42,11 +42,13 @@
 .title {
     font-weight: 700;
     font-size: 40px;
+    color: var(--bg);
 }
 
 .paragraph {
     font-size: 20px;
     font-weight: 300;
+    color: var(--bg);
 }
 
 .description {
@@ -81,6 +83,12 @@
     border-bottom-right-radius: 0;
 }
 
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .data {
     display: flex;
     flex-direction: column;
@@ -103,7 +111,7 @@
     display: flex;
     flex-direction: row;
     gap: 1vw;
-    color: var(--BrandDark);
+    color: var(--bg);
 }
 
 .line {
@@ -114,13 +122,14 @@
 
 .subtitle {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
+    color: var(--bg);
 }
 
 .iconText {
     font-size: 16px;
-    font-weight: 300;
-    color: #222222;
+    font-weight: 400;
+    color: var(--bg);
 }
 
 .social {

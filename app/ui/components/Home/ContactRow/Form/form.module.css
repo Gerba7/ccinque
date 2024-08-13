@@ -36,6 +36,7 @@
     color: var(--text);
     font-size: 14px;
     border-radius: 4px;
+    outline: none;
 }
 
 .input:focus {
@@ -84,8 +85,8 @@
 
 .button:hover {
     background-color: var(--BrandLight);
-    border: 1px solid var(--BrandDark);
-    color: var(--BrandDark);
+    /* border: 1px solid var(--BrandDark); */
+    color: var(--bg);
 }
 
 

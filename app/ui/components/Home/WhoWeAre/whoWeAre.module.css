@@ -210,7 +210,7 @@
 }
 
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
 
     .container {
         padding: 10vh 10vw;
@@ -221,11 +221,12 @@
     }
     
     .title {
-        font-size: 32px;
+        font-size: var(--title);
         width: 80%;
     }
 
     .description {
+        font-size: var(--paragraph);
         width: 80%;
     }
 
