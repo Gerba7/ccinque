@@ -4,7 +4,7 @@ import styles from './cover.module.css';
 import Image from 'next/image';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Link from 'next/link';
-import Cristina_Cinque_Cover from '../../../../../public/images/Cinque_Cover.jpg';
+import Cristina_Cinque_Cover from '../../../../../public/images/cover2.png';
 import Cristina_Cinque_Logo from '../../../../../public/images/LOGOCC.png';
 import { Great_Vibes } from 'next/font/google';
 import { useEffect, useState } from 'react';
@@ -44,10 +44,10 @@ const Cover = () => {
       </div>
       <div className={styles.slide}>
         <div className={styles.background}>
-        <video className={styles.video} width="100%" height="auto" preload="none" autoPlay loop muted playsInline>
+        {/* <video className={styles.video} width="100%" height="auto" preload="none" autoPlay loop muted playsInline>
           <source src={"/images/cover1.mp4"} type="video/mp4" />
-        </video>
-          {/* <Image className={styles.backgroundImage} src={Cristina_Cinque_Cover} alt='Sabbia cover' width={'100%'} height={'auto'} priority /> */}
+        </video> */}
+          <Image className={styles.backgroundImage} src={Cristina_Cinque_Cover} alt='Sabbia cover' width={'100%'} height={'auto'} priority />
         </div>
       </div>
       {/* <Link className={styles.link} href="#quienes-somos" aria-label='linkArrow'>
