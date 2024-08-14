@@ -44,7 +44,10 @@ const Cover = () => {
       </div>
       <div className={styles.slide}>
         <div className={styles.background}>
-          <Image className={styles.backgroundImage} src={Cristina_Cinque_Cover} alt='Sabbia cover' width={'100%'} height={'auto'} priority />
+        <video className={styles.video} width="100%" height="auto" preload="none" autoPlay loop muted playsInline>
+          <source src={"/images/cover1.mp4"} type="video/mp4" />
+        </video>
+          {/* <Image className={styles.backgroundImage} src={Cristina_Cinque_Cover} alt='Sabbia cover' width={'100%'} height={'auto'} priority /> */}
         </div>
       </div>
       {/* <Link className={styles.link} href="#quienes-somos" aria-label='linkArrow'>

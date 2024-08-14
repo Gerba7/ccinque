@@ -42,6 +42,10 @@
     height: 100%;
     overflow: hidden;
   }
+
+  .video {
+    margin-bottom: -50vh;
+  }
   
   .backgroundImage {
      width: 100%;
