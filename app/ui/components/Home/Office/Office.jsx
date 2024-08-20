@@ -53,7 +53,7 @@ const Office = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <h3 className={styles.subtitle}>NUESTRO</h3>
+                <h3 className={styles.subtitle}>Nuestro</h3>
                 <h1 className={styles.title}>CONSULTORIO</h1>
                 <p className={styles.description}>
                     Prestamos un servicio eficiente basado en nuestra amplía trayectoria profesional,

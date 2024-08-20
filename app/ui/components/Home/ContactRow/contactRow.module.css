@@ -40,20 +40,20 @@
 }
 
 .title {
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: var(--title);
     color: var(--bg);
 }
 
 .paragraph {
-    font-size: 20px;
+    font-size: var(--title2);
     font-weight: 300;
     color: var(--bg);
 }
 
 .description {
     width: 35vw;
-    font-size: 14px;
+    font-size: var(--subtitle);
     line-height: 40px;
     text-align: center;
     z-index: 5;
@@ -96,7 +96,7 @@
 }
 
 .contactTitle {
-    font-size: 24px;
+    font-size: var(--subtitle);
 }
 
 .iconsContainer {
@@ -121,14 +121,14 @@
 }
 
 .subtitle {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: var(--subtitle);
+    font-weight: 500;
     color: var(--bg);
 }
 
 .iconText {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: var(--subtitle);
+    font-weight: 300;
     color: var(--bg);
 }
 

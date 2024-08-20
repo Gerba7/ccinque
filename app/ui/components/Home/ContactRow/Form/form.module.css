@@ -34,7 +34,7 @@
     border-bottom: 2px solid var(--BrandLight);
     background-color: var(--bg);
     color: var(--text);
-    font-size: 14px;
+    font-size: var(--paragraph);
     border-radius: 4px;
     outline: none;
 }
@@ -81,6 +81,7 @@
     align-self: flex-end;
     border-radius: 8px;
     cursor: pointer;
+    font-size: var(--paragraph);
 }
 
 .button:hover {

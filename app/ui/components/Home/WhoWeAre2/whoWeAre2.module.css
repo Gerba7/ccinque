@@ -1,0 +1,278 @@
+.container {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--BrandLight);
+    color: #222222;
+    padding: 10vh 15vw;
+    justify-content: center;
+    position: relative;
+    gap: 5vh;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    z-index: 5;
+    width: 100%;
+    color: var(--brandIn);
+}
+
+.topSubtitle {
+    font-size: var(--subtitle);
+    width: 100%;
+    color: var(--bg);
+    font-weight: 500;
+    text-align: center;
+}
+
+.topTitle {
+    font-size: var(--title);
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    gap: 10vw;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.subtitle {
+    font-size: var(--subtitle);
+    width: 100%;
+    color: var(--bg);
+    font-weight: 500;
+    text-align: center;
+}
+
+.title {
+    font-size: var(--title2);
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.7rem;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    position: relative;
+}
+
+@keyframes slideInAnimation {
+    0% {
+        right: -20%;
+        opacity: 0;
+    }
+    100% {
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+.imgContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 32px;
+    /* border-bottom-left-radius: 32px;
+    border-top-right-radius: 32px; */
+    opacity: 1;
+    overflow: hidden;
+    will-change: opacity right;
+    background-color: var(--BrandLight);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    opacity: .9;
+}
+
+.slideIn {
+    animation: slideInAnimation .5s ease-in-out forwards;
+}
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        height: 100vh;
+        padding: 5vh 5vw;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .left {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .title {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (min-width: 800px) and (max-width: 928px) {
+
+    .container {
+        padding: 5vh 5vw;
+    }
+
+    .wrapper {
+        gap: 1vw;
+    }
+
+    .subtitle {
+        width: 90%;
+    }
+    
+    .title {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .description {
+        font-size: 14px;
+        width: 85%;
+    }
+
+}
+
+
+@media (min-width: 929px) and (max-width: 999px) {
+
+    .container {
+        padding: 5vh 5vw;
+    }
+
+    .wrapper {
+        gap: 1vw;
+    }
+
+    .subtitle {
+        width: 90%;
+    }
+    
+    .title {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .description {
+        font-size: 14px;
+        width: 90%;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+    .subtitle {
+        width: 90%;
+    }
+    
+    .title {
+        font-size: 32px;
+        width: 90%;
+    }
+
+    .description {
+        font-size: 14px;
+        width: 90%;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+    .container {
+        padding: 10vh 10vw;
+    }
+
+    .subtitle {
+        width: 80%;
+    }
+    
+    .title {
+        font-size: var(--title);
+        width: 80%;
+    }
+
+    .description {
+        font-size: var(--paragraph);
+        width: 80%;
+    }
+
+}

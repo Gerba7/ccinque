@@ -4,13 +4,17 @@
   --BrandDark: #828C8D;  /* #06a3da */
   --text: #202A2C;   /* #222222 */
 
-  --paragraph2: 12px;
-  --title2: 24px;
-  --topTitle2: 12px;
+  --jumboTitle: 7vw;
+  --title: 2.5vw;
+  --title2: 1.9vw;
+  --subtitle: 1.2vw;
+  --paragraph: .9vw;
 
-  --paragraph: 1rem;
-  --title: 2rem;
-  --topTitle: 1rem;
+  --mobileJumboTitle: 20vw;
+  --mobileTitle: 7.1vw;
+  --mobileTitle2: 5.4vw;
+  --mobileSubtitle: 3.4vw;
+  --mobileParagraph: 3vw;
 
 }
 

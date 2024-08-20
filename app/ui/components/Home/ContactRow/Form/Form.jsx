@@ -42,7 +42,7 @@ const Form = () => {
             <label className={styles.label} htmlFor='message'>Mensaje</label>
             <textarea className={styles.textarea} id='message' type="text" name='message' required />
         </div>
-        <button className={styles.button} type='submit' form='form' >ENVIAR MENSAJE</button>
+        <button className={styles.button} type='submit' form='form' >ENVIAR</button>
     </form>
   )
 }
