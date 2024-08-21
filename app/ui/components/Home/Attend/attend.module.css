@@ -7,7 +7,7 @@
     padding: 0vh 15vw;
     justify-content: center;
     position: relative;
-    background-color: var(--BrandLightGray);
+    background-color: var(--bg);
 }
 
 .scrollOffset {
@@ -40,23 +40,23 @@
 }
 
 .subtitle {
-    font-size: var(--title2);
+    font-size: var(--subtitle);
     color: var(--text);
     font-weight: 400;
-    opacity: 0;
+    opacity: 1;
 }
 
 .title {
-    font-size: var(--superTitle);
+    font-size: var(--title);
     font-weight: 500;
-    margin-bottom: 3vh;
+    margin-bottom: 10vh;
     animation-delay: .3s;
-    opacity: 0;
+    opacity: 1;
     color: var(--text);
 }
 
 .description {
-    font-size: var(--subtitle);
+    font-size: var(--paragraph);
     width: 50%;
     font-weight: 400;
     line-height: 1.5rem;
@@ -93,6 +93,11 @@
     animation: visibleAnimation 1s ease-in-out forwards;
 }
 
+.img {
+    width: 20vw;
+    height: auto;
+}
+
 
 @media  (max-width: 799px) {
     
@@ -115,7 +120,7 @@
 @media (min-width: 800px) and (max-width: 999px) {
 
     .container {
-        padding: 10vh 5vw;
+        padding: 0vh 5vw;
     }
 
     .description {
@@ -128,7 +133,7 @@
 @media (min-width: 1000px) and (max-width: 1199px) {
 
     .container {
-        padding: 10vh 10vw;
+        padding: 0vh 10vw;
     }
 
     .description {
@@ -142,8 +147,9 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
 
     .container {
-        padding: 5vh 10vw;
+        padding: 0vh 10vw;
     }
+
 
 }
 
@@ -151,7 +157,7 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
 
     .container {
-        padding: 5vh 10vw;
+        padding: 0vh 10vw;
     }
 
 }

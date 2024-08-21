@@ -10,6 +10,7 @@ import ContactRow from "./ui/components/Home/ContactRow/ContactRow";
 import Services from "./ui/components/Home/Services/Services";
 import Test from "./ui/components/Home/Test/Test";
 import WhoWeAre2 from "./ui/components/Home/WhoWeAre2/WhoWeAre2";
+import Attend from "./ui/components/Home/Attend/Attend";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Services />
       <Mission />
       <Office />
+      <Attend />
       <ContactRow />
       <MapRow />
     </main>

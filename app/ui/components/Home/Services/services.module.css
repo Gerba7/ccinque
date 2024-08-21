@@ -40,29 +40,29 @@
 }
 
 .subtitle {
-    font-size: var(--subtitle);
+    font-size: var(--title2);
     width: 100%;
     color: var(--BrandDark);
     font-weight: 500;
-    text-align: center;
 }
 
 .title {
-    font-size: var(--title);
+    font-size: var(--superTitle);
     width: 100%;
     font-weight: 500;
     margin-bottom: 2vh;
-    text-align: center;
 }
 
 .wrapper {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20vh;
     align-items: center;
+    justify-content: center;
     z-index: 1;
-    grid-gap: 3vw;
+    grid-column-gap: 3vw;
 }
 
 .serviceContainer {
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 3vh;
-    padding: 10vh 1vw 7vh 1vw;
+    padding: 10vh 3vw 7vh 3vw;
     background-color: #ffffff;
     position: relative;
     height: 100%;
@@ -84,14 +84,14 @@
 
 .serviceTitle {
     font-size: var(--subtitle);
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text);
     position: relative;
     text-align: center; 
 }
 
 .text {
-    font-size: var(--paragraph);
+    font-size: var(--subtitle);
     text-align: center;
 }
 
@@ -177,8 +177,5 @@
         padding: 10vh 10vw;
     }
 
-    .serviceContainer {
-        width: 17vw;
-    }
 
 }

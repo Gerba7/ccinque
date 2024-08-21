@@ -1,10 +1,12 @@
 :root {
   --bg: #ffffff;  /* f5f5f5 */
+  --BrandLightGray: #f7f7f7;  /*  #edf4fb */
   --BrandLight: #AFC8CB;  /*  #edf4fb */
   --BrandDark: #828C8D;  /* #06a3da */
   --text: #202A2C;   /* #222222 */
 
   --jumboTitle: 7vw;
+  --superTitle: 3.5vw;
   --title: 2.5vw;
   --title2: 1.9vw;
   --subtitle: 1.2vw;

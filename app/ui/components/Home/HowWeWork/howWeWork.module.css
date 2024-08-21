@@ -72,19 +72,19 @@
     justify-content: center;
     gap: 1vh;
     z-index: 2;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .texts {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 3vh;
 }
 
 .paragraph1 {
-    font-size: var(--paragraph);
+    font-size: var(--subtitle);
     opacity: 0;
     transition: opacity .3s ease-out;
     font-weight: 400;
@@ -94,7 +94,7 @@
 .top {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content: flex-start;
     justify-content: center;
     z-index: 5;
     width: 100%;
@@ -102,19 +102,17 @@
 }
 
 .subtitle {
-    font-size: var(--subtitle);
+    font-size: var(--title2);
     width: 100%;
     color: var(--BrandDark);
     font-weight: 500;
-    text-align: center;
 }
 
 .title {
-    font-size: var(--title);
+    font-size: var(--superTitle);
     width: 100%;
     font-weight: 500;
     margin-bottom: 2vh;
-    text-align: center;
 }
 
 .titles {
@@ -126,7 +124,7 @@
 }
 
 .paragraph2 {
-    font-size: var(--paragraph);
+    font-size: var(--subtitle);
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: 0.25s;
@@ -143,7 +141,7 @@
 }
 
 .paragraph3 {
-    font-size: var(--paragraph);
+    font-size: var(--subtitle);
     opacity: 0;
     transition: opacity .3s ease-out;
     transition-delay: .5s;
@@ -293,26 +291,6 @@
         padding: 10vh 5vw;
     }
 
-    .paragraph1 {
-        font-size: 16px;
-    }
-    
-    .paragraph2 {
-        font-size: 16px;
-    }
-
-    .paragraph3 {
-        font-size: 16px;
-    }
-    
-    .titles {
-        font-size: 28px;
-    }
-    
-    .titles2 {
-        font-size: 28px;
-    }
-
 }
 
 
@@ -322,26 +300,6 @@
         padding: 10vh 5vw;
     }
 
-    .paragraph1 {
-        font-size: 16px;
-    }
-    
-    .paragraph2 {
-        font-size: 16px;
-    }
-
-    .paragraph3 {
-        font-size: 16px;
-    }
-    
-    .titles {
-        font-size: 32px;
-    }
-    
-    .titles2 {
-        font-size: 32px;
-    }
-
 }
 
 
@@ -349,26 +307,6 @@
 
     .container {
         padding: 10vh 10vw;
-    }
-
-    .paragraph1 {
-        font-size: 16px;
-    }
-    
-    .paragraph2 {
-        font-size: 16px;
-    }
-
-    .paragraph3 {
-        font-size: 16px;
-    }
-    
-    .titles {
-        font-size: 36px;
-    }
-    
-    .titles2 {
-        font-size: 36px;
     }
 
 }

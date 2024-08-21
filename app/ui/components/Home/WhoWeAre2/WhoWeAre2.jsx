@@ -53,13 +53,13 @@ const WhoWeAre2 = () => {
         </div>
         <div className={styles.bottom}>
             <div className={styles.wrapper} >
-                <div className={styles.right}>
+                {/* <div className={styles.right}>
                     <div className={`${styles.imgContainer} `}>
                         <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dra. Cristina Cinque' priority/>
                     </div>
-                </div>
+                </div> */}
                 <div className={styles.left}>
-                    <h3 className={styles.subtitle}>QUIENES SOMOS</h3>
+                    {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
                     <h1 className={styles.title}>DRA. CRISTINA CINQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontóloga Cristina Cinque
@@ -71,13 +71,13 @@ const WhoWeAre2 = () => {
                 </div>
             </div>
             <div className={styles.wrapper} >
-                <div className={styles.right}>
+                {/* <div className={styles.right}>
                     <div className={`${styles.imgContainer} `}>
                         <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dra. Cristina Cinque' priority />
                     </div>
-                </div>
+                </div> */}
                 <div className={styles.left}>
-                    <h3 className={styles.subtitle}>QUIENES SOMOS</h3>
+                    {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
                     <h1 className={styles.title}>DR. ENRIQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontologa Cristina Cinque
