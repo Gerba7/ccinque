@@ -115,7 +115,7 @@
 @media (min-width: 800px) and (max-width: 999px) {
 
     .container {
-        padding: 10vh 5vw;
+        padding: 5vh 5vw;
     }
 
     .description {
@@ -128,7 +128,7 @@
 @media (min-width: 1000px) and (max-width: 1199px) {
 
     .container {
-        padding: 10vh 10vw;
+        padding: 5vh 10vw;
     }
 
     .description {
