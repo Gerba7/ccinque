@@ -77,10 +77,6 @@
     align-items: center;
     gap: 4vh;
     flex-direction: column;
-    border-top-left-radius: 0;
-    border-top-right-radius: 32px;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 0;
 }
 
 .texts {

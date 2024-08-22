@@ -53,7 +53,7 @@ const HowWeWork = () => {
       {/* <div className={styles.back} /> */}
       <div className={styles.wrapper} ref={animationRef}>
         <div className={styles.top}>
-            <h3 className={styles.subtitle}>Nuestra</h3>
+            <h3 className={styles.subtitle}>NUESTRA</h3>
             <h1 className={styles.title}>TRAYECTORIA</h1>
         </div>
         <div className={styles.texts}>

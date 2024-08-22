@@ -44,7 +44,7 @@ const Mission = () => {
     <div className={styles.container}>
         <div className={styles.scrollOffset} id='objetivos'></div>
         <div className={styles.wrapper}>
-            <h3 className={`${styles.subtitle} ${animate ? styles.visible : ''}`}>Nuestros</h3>
+            <h3 className={`${styles.subtitle} ${animate ? styles.visible : ''}`}>NUESTROS</h3>
             <h1 className={`${styles.title} ${animate ? styles.visible : ''}`}>OBJETIVOS</h1>
             <p className={`${styles.description} ${animate ? styles.visible : ''}`} ref={animationRef}>
               Nuestro principal objetivo es lograr una buena salud bucal en nuestros pacientes, 

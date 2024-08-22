@@ -17,7 +17,7 @@ const Value = () => {
         <div className={styles.scrollOffset} id='experiencia'></div>
         <div className={styles.background} />
         <div className={styles.top}>
-            <h3 className={styles.subtitle}>Nuestros</h3>
+            <h3 className={styles.subtitle}>NUESTROS</h3>
             <h1 className={styles.title}>SERVICIOS</h1>
         </div>
         <div className={styles.wrapper}>

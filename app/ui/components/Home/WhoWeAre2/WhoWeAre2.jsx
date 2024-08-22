@@ -48,8 +48,8 @@ const WhoWeAre2 = () => {
     <div className={styles.container}>
         <div className={styles.scrollOffset} id='quienes-somos'></div>
         <div className={styles.top}>
-            <h3 className={styles.topSubtitle}>Quienes</h3>
-            <h1 className={styles.topTitle}>SOMOS</h1>
+            {/* <h3 className={styles.topSubtitle}>QUIENES</h3> */}
+            <h1 className={styles.topTitle}>QUIENES SOMOS</h1>
         </div>
         <div className={styles.bottom}>
             <div className={styles.wrapper} >
