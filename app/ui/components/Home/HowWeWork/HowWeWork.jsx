@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from './howWeWork.module.css';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import Consultorio from '../../../../../public/images/Consultorio.jpg';
+import Consultorio from '../../../../../public/images/Consultorio1.jpg';
 import Doctores from '../../../../../public/images/doctors1.png';
 import Waves from '../../../../../public/images/wavesOpacity.svg';
 
@@ -68,7 +68,7 @@ const HowWeWork = () => {
       </div>
       <div className={styles.right}>
         <div className={styles.wrapperRight}>
-          <Image src={Doctores} className={styles.img} alt='doctores' />
+          <Image src={Consultorio} className={styles.img} alt='doctores' />
         </div>
       </div>
     </div>

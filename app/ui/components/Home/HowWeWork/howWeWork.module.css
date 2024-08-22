@@ -4,7 +4,7 @@
     flex-direction: row;
     background-color: #ffffff;
     color: #222222;
-    padding: 7vh 15vw;
+    padding: 10vh 15vw;
     justify-content: center;
     position: relative;
     /* background-image: url('../../../../../public/images/working.jpg');
@@ -189,7 +189,7 @@
 }
 
 .wrapperRight{
-    width: 70%;
+    width: 90%;
     height: 100%;
     /* -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
     mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%); */
@@ -200,9 +200,9 @@
     height: 100%;
     object-fit: cover;
     -o-object-fit: cover;
-    
+/*     
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%); */
 }
 
 
