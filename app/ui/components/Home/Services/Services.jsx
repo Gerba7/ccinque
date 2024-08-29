@@ -27,9 +27,11 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>ODONTOPEDIATRÍA</h5>
                 <p className={styles.text}>
-                    La odontopediatría es la rama de la odontología que se 
-                    dedica a la salud oral de los niños, desde el nacimiento 
-                    hasta la adolescencia.
+                    Actualmente se considera el crecimiento y desarrollo físico, 
+                    mental y emocional de los niños como un todo, en el que el 
+                    componente bucal tiene mucha importancia. El odontopediatra 
+                    es responsable de la atencion integral del niño, priorizando 
+                    la educación para la salud y la prevención, para lograr ese objetivo.
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -38,9 +40,10 @@ const Value = () => {
                 </div>  
                 <h5 className={styles.serviceTitle}>BLANQUEAMIENTOS</h5>
                 <p className={styles.text}>
-                    El Blanqueamiento dental es posiblemente uno de los tratamientos 
-                    de estética más demandado en la actualidad, en nuestra clínica 
-                    disponemos de diferentes tipos de blanqueamiento.
+                    Los blanqueamientos son tratamientos conservadores que surgen 
+                    como respuesta a la necesidad de las personas de tener dientes blancos, 
+                    algo q fue asi historicamnete. En el mercado hay diferentes productos 
+                    blanquadores q el odontólogo utilizará según la estrategia mas conveniente.
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -49,9 +52,9 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>PERIODONCIA</h5>
                 <p className={styles.text}>
-                Especialidad que cuida nuestra salud bucal, tratando enfermedades 
-                que afectan nuestras encías, como sangrado, infecciones y retracciones. 
-                Es fundamental para conservar nuestros dientes.
+                    Esta rama de la odontologíia se ocupa del diagnóstico, prevención y 
+                    tratamiento de las enfermedades que afectan la estructura de soporte 
+                    de las piezas dentarias, logrando salud, función y estética.
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -60,7 +63,9 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>PRÓTESIS</h5>
                 <p className={styles.text}>
-                    Solucionamos la funcionalidad para masticar , logrando altos estándares de estética.
+                    Esta especialidad rehabilita los problemas estomatognaticos de las 
+                    personas que presentan pérdidas de piezas dentarias, devolviendo función 
+                    y estética por medio de aparatología fija o removible.
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -69,9 +74,11 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>IMPLANTES</h5>
                 <p className={styles.text}>
-                    Los implantes dentales son raíces artificiales que se colocan 
-                    en el hueso maxilar con el objetivo de reemplazar uno o más 
-                    dientes perdidos, ya sea por periodontitis, caries o traumatismos.
+                    Esta especialidad diagnostica, planifica y ejecuta a tarves de 
+                    una cirugía, la colocación de implantes que reemplazarán las raíces 
+                    de las piezas dentarias perdidas, sobre los cuales se colocará una 
+                    protesis fija o removible , otorgandole al paciente función masticatoria y estética.
+
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -80,9 +87,9 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>ESTÉTICA</h5>
                 <p className={styles.text}>
-                    Los implantes dentales son raíces artificiales que se colocan 
-                    en el hueso maxilar con el objetivo de reemplazar uno o más 
-                    dientes perdidos, ya sea por periodontitis, caries o traumatismos.
+                    La estética es la especialidad que soluciona los problemas de salud bucal sin dejar
+                    de lado el valor de la estética y q gracias a la aparición de materiales d primera
+                    generación y técnica adecuadas el odontólogo ejecuta.
                 </p>
             </div>
         </div>

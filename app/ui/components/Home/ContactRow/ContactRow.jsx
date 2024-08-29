@@ -2,7 +2,7 @@ import styles from './contactRow.module.css';
 import Form from './Form/Form';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailIcon from '@mui/icons-material/Email';
-import SignpostIcon from '@mui/icons-material/Signpost';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 
@@ -37,7 +37,7 @@ const ContactRow = () => {
                 </div>
               </div>
               <div className={styles.icon}>
-                <SignpostIcon size={24} color='inherit' />
+                <LocationOnIcon size={24} color='inherit' />
                 <div className={styles.line}>
                   <h3 className={styles.subtitle}>DIRECCION</h3>
                   <h4 className={styles.iconText}>Aguero 2160 6 E</h4>

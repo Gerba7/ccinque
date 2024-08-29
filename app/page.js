@@ -16,12 +16,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Cover />
+      <Services />
       <HowWeWork />
       <WhoWeAre2 />
       {/* <WhoWeAre /> */}
-      <Services />
-      <Mission />
       <Office />
+      <Mission />
       <Attend />
       <ContactRow />
       <MapRow />
