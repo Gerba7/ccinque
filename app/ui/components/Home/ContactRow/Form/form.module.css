@@ -79,7 +79,6 @@
     max-width: max-content;
     color: var(--bg);
     align-self: flex-end;
-    border-radius: 8px;
     cursor: pointer;
     font-size: var(--paragraph);
 }

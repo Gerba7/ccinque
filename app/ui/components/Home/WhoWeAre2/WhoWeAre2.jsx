@@ -5,6 +5,9 @@ import styles from './whoWeAre2.module.css';
 import Image from 'next/image';
 import Dra_Cristina_Cinque from '../../../../../public/images/Dra_Cristina_Cinque.jpg';
 import Dra_Cristina_Cinque3 from '../../../../../public/images/Dra_Cristina_Cinque3.jpg';
+import Blanqueamientos from '../../../../../public/images/blanqueamientos.jpg';
+import Dra from '../../../../../public/images/draa.jpg';
+import Dr from '../../../../../public/images/dr.jpg';
 
 
 
@@ -60,6 +63,9 @@ const WhoWeAre2 = () => {
                 </div> */}
                 <div className={styles.left}>
                     {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
+                    <div className={styles.icon}>
+                        <Image className={styles.img} src={Dra} alt='Blanqueamientos' />
+                    </div>  
                     <h1 className={styles.title}>DRA. CRISTINA CINQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontóloga Cristina Cinque
@@ -78,6 +84,9 @@ const WhoWeAre2 = () => {
                 </div> */}
                 <div className={styles.left}>
                     {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
+                    <div className={styles.icon}>
+                        <Image className={styles.img} src={Dr} alt='Blanqueamientos' />
+                    </div>  
                     <h1 className={styles.title}>DR. ENRIQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontologa Cristina Cinque

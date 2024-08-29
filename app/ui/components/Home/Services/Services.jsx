@@ -1,5 +1,4 @@
 import styles from './services.module.css';
-import Counter from './Counter/Counter';
 import Image from 'next/image';
 import Blanqueamientos from '../../../../../public/images/blanqueamientos.jpg';
 import Implantes from '../../../../../public/images/implantes.png';
@@ -14,7 +13,7 @@ import Estetica from '../../../../../public/images/restauracion.png';
 const Value = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.scrollOffset} id='experiencia'></div>
+        <div className={styles.scrollOffset} id='servicios'></div>
         <div className={styles.background} />
         <div className={styles.top}>
             <h3 className={styles.subtitle}>NUESTROS</h3>

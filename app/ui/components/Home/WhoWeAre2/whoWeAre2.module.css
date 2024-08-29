@@ -45,7 +45,7 @@
 
 .bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     height: 100%;
     gap: 5vh;
@@ -68,6 +68,27 @@
     justify-content: center;
     align-items: center;
     gap: 2vh;
+}
+
+.icon {
+    height: 10vw;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brandIn);
+    color: #f5f5f5;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--BrandDark);
+    margin-bottom: 5vh;
+}
+
+.img {
+    object-fit: cover;
+    -o-object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .subtitle {
