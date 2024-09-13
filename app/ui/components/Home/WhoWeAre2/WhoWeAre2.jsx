@@ -71,8 +71,9 @@ const WhoWeAre2 = () => {
                         Odontóloga Cristina Cinque
                         Egresada de la uba en el año 1985.
                         Especialista en odontopediatria.
-                        Docente en la cátedra de odontología preventiva y comunitaria (año 1985 a 2010) y en la asociación Odontologica argentina (año 2000 a 2010).
-                        Titular de cursos de la especialidad. 
+                        Docente en la cátedra de odontología preventiva y comunitaria (año 1985 a 2010) 
+                        y en la asociación Odontologica argentina (año 2000 a 2010).
+                        <br/>Titular de cursos de la especialidad. 
                     </p>
                 </div>
             </div>
