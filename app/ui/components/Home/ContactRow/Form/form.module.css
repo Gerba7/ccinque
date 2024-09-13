@@ -8,6 +8,7 @@
     height: 100%;
     justify-content: space-between;
     width: 100%;
+    padding: 5vh 0;
 }
 
 .top {
@@ -56,7 +57,7 @@
 }
 
 .textarea {
-    height: 72px;
+    height: 64px;
     border: none;
     border-bottom: 2px solid var(--BrandLight);
     background-color: var(--bg);

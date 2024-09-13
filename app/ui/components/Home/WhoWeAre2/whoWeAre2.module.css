@@ -100,7 +100,7 @@
 }
 
 .title {
-    font-size: var(--title);
+    font-size: var(--title2);
     width: 100%;
     font-weight: 300;
     margin-bottom: 2vh;

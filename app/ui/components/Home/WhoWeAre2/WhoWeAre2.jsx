@@ -63,9 +63,9 @@ const WhoWeAre2 = () => {
                 </div> */}
                 <div className={styles.left}>
                     {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
-                    <div className={styles.icon}>
+                    {/* <div className={styles.icon}>
                         <Image className={styles.img} src={Dra} alt='Blanqueamientos' />
-                    </div>  
+                    </div>   */}
                     <h1 className={styles.title}>DRA. CRISTINA CINQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontóloga Cristina Cinque
@@ -84,16 +84,16 @@ const WhoWeAre2 = () => {
                 </div> */}
                 <div className={styles.left}>
                     {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
-                    <div className={styles.icon}>
+                    {/* <div className={styles.icon}>
                         <Image className={styles.img} src={Dr} alt='Blanqueamientos' />
-                    </div>  
-                    <h1 className={styles.title}>DR. ENRIQUE</h1>
+                    </div>   */}
+                    <h1 className={styles.title}>DR. ENRIQUE J. BANFI</h1>
                     <p className={styles.description} ref={animationRef}>
-                        Odontologa Cristina Cinque
-                        Egresada de la uba en el año 1985.
-                        Especialista en odontopediatria.
-                        Docente en la cátedra de odontologia preventiva y comunitaria (año 1985 a 2010) y en la asociación Odontologica argentina (año 2000 a 2010).
-                        Titular de cursos de la especialidad. 
+                        Odontólogo Enique Banfi
+                        Docente auxiliar en Prótesis de mediana y alta complejidad - USAL
+                        35 años en Rehabilitación Oral en clínicas y consultorio privado
+                        Expositor en Congresos
+                        Rehabilitación Oral analógica y digital - Función y estética
                     </p>
                 </div>
             </div>

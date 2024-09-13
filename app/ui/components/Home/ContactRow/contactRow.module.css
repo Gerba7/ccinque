@@ -63,19 +63,17 @@
     flex: 7;
     display: flex;
     padding: 0 20vw;
-    margin-bottom: 20vh;
-    margin-top: 10vh;
 }
 
 .left {
     flex: 1;
     background-color: var(--BrandLight);
-    height: 100%;
-    padding: 5vh 0;
+    height: 95%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 4vh;
+    padding: 5vh 0;
+    gap: 7vh;
     flex-direction: column;
 }
 
