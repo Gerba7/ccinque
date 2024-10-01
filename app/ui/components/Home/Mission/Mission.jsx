@@ -50,7 +50,7 @@ const Mission = () => {
               Nuestro principal objetivo es lograr una buena salud bucal en nuestros pacientes, 
               haciendo énfasis en la educación para la salud y en la prevención, 
               realizando constantes monitoreos en adultos y en niños. 
-              Así mismo también se realizas tratamientos correctivos y restauradores 
+              Así mismo también se realizan tratamientos correctivos y restauradores 
               abarcando las distintas especialidades de la profesión.
             </p>
         </div>

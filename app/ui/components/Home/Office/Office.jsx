@@ -57,11 +57,11 @@ const Office = () => {
                 <h3 className={styles.subtitle}>NUESTRO</h3>
                 <h1 className={styles.title}>CONSULTORIO</h1>
                 <p className={styles.description}>
-                    Prestamos un servicio eficiente basado en nuestra amplía trayectoria profesional,
+                    Prestamos un servicio eficiente basado en nuestra amplia trayectoria profesional,
                     brindando la mejor asistencia de manera responsable, eficiente y profesional.  
-                    Nuestras instalaciones y equipamineto son de última generación logrando así poder 
+                    Nuestras instalaciones y equipamiento son de última generación logrando así poder 
                     trabajar en un ambiente cálido y confortable para mayor tranquilidad de nuestros pacientes.
-                    Contamos así mismo, con las medidas de bioseguridad vigentes para el ejercicio de la profesion.
+                    Contamos así mismo, con las medidas de bioseguridad vigentes para el ejercicio de la profesión.
                 </p>
             </div>
         </div>

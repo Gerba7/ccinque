@@ -42,7 +42,7 @@ const Value = () => {
                     Los blanqueamientos son tratamientos conservadores que surgen 
                     como respuesta a la necesidad de las personas de tener dientes blancos, 
                     algo q fue asi historicamnete. En el mercado hay diferentes productos 
-                    blanquadores q el odontólogo utilizará según la estrategia mas conveniente.
+                    blanqueadores q el odontólogo utilizará según la estrategia mas conveniente.
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -51,7 +51,7 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>PERIODONCIA</h5>
                 <p className={styles.text}>
-                    Esta rama de la odontologíia se ocupa del diagnóstico, prevención y 
+                    Esta rama de la odontología se ocupa del diagnóstico, prevención y 
                     tratamiento de las enfermedades que afectan la estructura de soporte 
                     de las piezas dentarias, logrando salud, función y estética.
                 </p>
@@ -62,7 +62,7 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>PRÓTESIS</h5>
                 <p className={styles.text}>
-                    Esta especialidad rehabilita los problemas estomatognaticos de las 
+                    Esta especialidad rehabilita los problemas estomatognáticos de las 
                     personas que presentan pérdidas de piezas dentarias, devolviendo función 
                     y estética por medio de aparatología fija o removible.
                 </p>
@@ -76,7 +76,7 @@ const Value = () => {
                     Esta especialidad diagnostica, planifica y ejecuta a tarves de 
                     una cirugía, la colocación de implantes que reemplazarán las raíces 
                     de las piezas dentarias perdidas, sobre los cuales se colocará una 
-                    protesis fija o removible , otorgandole al paciente función masticatoria y estética.
+                    prótesis fija o removible , otorgandole al paciente función masticatoria y estética.
 
                 </p>
             </div>

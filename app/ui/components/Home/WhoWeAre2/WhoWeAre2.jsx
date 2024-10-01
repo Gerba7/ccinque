@@ -66,7 +66,7 @@ const WhoWeAre2 = () => {
                     {/* <div className={styles.icon}>
                         <Image className={styles.img} src={Dra} alt='Blanqueamientos' />
                     </div>   */}
-                    <h1 className={styles.title}>DRA. CRISTINA CINQUE</h1>
+                    <h1 className={styles.title}>OD. CRISTINA CINQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontóloga Cristina Cinque
                         Egresada de la uba en el año 1985.
@@ -88,9 +88,10 @@ const WhoWeAre2 = () => {
                     {/* <div className={styles.icon}>
                         <Image className={styles.img} src={Dr} alt='Blanqueamientos' />
                     </div>   */}
-                    <h1 className={styles.title}>DR. ENRIQUE J. BANFI</h1>
+                    <h1 className={styles.title}>OD. E. J. BANFI</h1>
                     <p className={styles.description} ref={animationRef}>
-                        Odontólogo Enique Banfi
+                        Odontólogo E. J. Banfi
+                        Egresada de la uba en el año 1985.
                         Docente auxiliar en Prótesis de mediana y alta complejidad - USAL
                         35 años en Rehabilitación Oral en clínicas y consultorio privado
                         Expositor en Congresos
