@@ -2,12 +2,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './whoWeAre2.module.css';
-import Image from 'next/image';
-import Dra_Cristina_Cinque from '../../../../../public/images/Dra_Cristina_Cinque.jpg';
-import Dra_Cristina_Cinque3 from '../../../../../public/images/Dra_Cristina_Cinque3.jpg';
-import Blanqueamientos from '../../../../../public/images/blanqueamientos.jpg';
-import Dra from '../../../../../public/images/draa.jpg';
-import Dr from '../../../../../public/images/dr.jpg';
 
 
 
@@ -69,10 +63,10 @@ const WhoWeAre2 = () => {
                     <h1 className={styles.title}>OD. CRISTINA CINQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontóloga Cristina Cinque
-                        Egresada de la uba en el año 1985.
-                        Especialista en odontopediatria.
-                        Docente en la cátedra de odontología preventiva y comunitaria (año 1985 a 2010) 
-                        y en la asociación Odontologica argentina (año 2000 a 2010).
+                        Egresada de la UBA en el año 1985.
+                        Especialista en odontopediatría.
+                        Docente en la Cátedra Odontología Preventiva y Comunitaria (año 1985 a 2010). 
+                        y en la Asociación Odontológica Argentina (año 2000 a 2010).
                         <br/>Titular de cursos de la especialidad. 
                     </p>
                 </div>
@@ -91,11 +85,11 @@ const WhoWeAre2 = () => {
                     <h1 className={styles.title}>OD. E. J. BANFI</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontólogo E. J. Banfi
-                        Egresada de la uba en el año 1985.
+                        Egresada de la UBA en el año 1985.
                         Docente auxiliar en Prótesis de mediana y alta complejidad - USAL
-                        35 años en Rehabilitación Oral en clínicas y consultorio privado
-                        Expositor en Congresos
-                        Rehabilitación Oral analógica y digital - Función y estética
+                        35 años en Rehabilitación Oral en clínicas y consultorio privado.
+                        Expositor en Congresos.
+                        Rehabilitación Oral analógica y digital - Función y estética.
                     </p>
                 </div>
             </div>

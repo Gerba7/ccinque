@@ -73,10 +73,10 @@ const Value = () => {
                 </div>
                 <h5 className={styles.serviceTitle}>IMPLANTES</h5>
                 <p className={styles.text}>
-                    Esta especialidad diagnostica, planifica y ejecuta a tarves de 
+                    Esta especialidad diagnostica, planifica y ejecuta a través de 
                     una cirugía, la colocación de implantes que reemplazarán las raíces 
                     de las piezas dentarias perdidas, sobre los cuales se colocará una 
-                    prótesis fija o removible , otorgandole al paciente función masticatoria y estética.
+                    prótesis fija o removible, otorgándole al paciente función masticatoria y estética.
 
                 </p>
             </div>
@@ -87,8 +87,8 @@ const Value = () => {
                 <h5 className={styles.serviceTitle}>ESTÉTICA</h5>
                 <p className={styles.text}>
                     La estética es la especialidad que soluciona los problemas de salud bucal sin dejar
-                    de lado el valor de la estética y q gracias a la aparición de materiales d primera
-                    generación y técnica adecuadas el odontólogo ejecuta.
+                    de lado el valor de la estética y que gracias a la aparición de materiales d primera
+                    generación y técnicas adecuadas el odontólogo ejecuta.
                 </p>
             </div>
         </div>
