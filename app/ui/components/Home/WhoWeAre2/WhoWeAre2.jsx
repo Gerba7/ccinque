@@ -63,9 +63,9 @@ const WhoWeAre2 = () => {
                     <h1 className={styles.title}>OD. CRISTINA CINQUE</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontóloga Cristina Cinque
-                        Egresada de la UBA en el año 1985.
+                        egresada de la UBA en el año 1985.
                         Especialista en odontopediatría.
-                        Docente en la Cátedra Odontología Preventiva y Comunitaria (año 1985 a 2010). 
+                        Docente en la Cátedra Odontología Preventiva y Comunitaria (año 1985 a 2010)
                         y en la Asociación Odontológica Argentina (año 2000 a 2010).
                         <br/>Titular de cursos de la especialidad. 
                     </p>
@@ -85,7 +85,7 @@ const WhoWeAre2 = () => {
                     <h1 className={styles.title}>OD. E. J. BANFI</h1>
                     <p className={styles.description} ref={animationRef}>
                         Odontólogo E. J. Banfi
-                        Egresada de la UBA en el año 1985.
+                        egresado de la UBA en el año 1985.
                         Docente auxiliar en Prótesis de mediana y alta complejidad - USAL
                         35 años en Rehabilitación Oral en clínicas y consultorio privado.
                         Expositor en Congresos.

@@ -41,8 +41,8 @@ const Value = () => {
                 <p className={styles.text}>
                     Los blanqueamientos son tratamientos conservadores que surgen 
                     como respuesta a la necesidad de las personas de tener dientes blancos, 
-                    algo q fue asi historicamnete. En el mercado hay diferentes productos 
-                    blanqueadores q el odontólogo utilizará según la estrategia mas conveniente.
+                    algo que fue asi historicamnete. En el mercado hay diferentes productos 
+                    blanqueadores que el odontólogo utilizará según la estrategia más conveniente.
                 </p>
             </div>
             <div className={styles.serviceContainer}>
@@ -87,7 +87,7 @@ const Value = () => {
                 <h5 className={styles.serviceTitle}>ESTÉTICA</h5>
                 <p className={styles.text}>
                     La estética es la especialidad que soluciona los problemas de salud bucal sin dejar
-                    de lado el valor de la estética y que gracias a la aparición de materiales d primera
+                    de lado el valor de la estética y que gracias a la aparición de materiales de primera
                     generación y técnicas adecuadas el odontólogo ejecuta.
                 </p>
             </div>
