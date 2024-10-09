@@ -28,8 +28,8 @@ const Value = () => {
                 <p className={styles.text}>
                     Actualmente se considera el crecimiento y desarrollo físico, 
                     mental y emocional de los niños como un todo, en el que el 
-                    componente bucal tiene mucha importancia. El odontopediatra 
-                    es responsable de la atencion integral del niño, priorizando 
+                    componente bucal tiene mucha importancia. El Odontopediatra 
+                    es responsable de la atención integral del niño, priorizando 
                     la educación para la salud y la prevención, para lograr ese objetivo.
                 </p>
             </div>
@@ -41,7 +41,7 @@ const Value = () => {
                 <p className={styles.text}>
                     Los blanqueamientos son tratamientos conservadores que surgen 
                     como respuesta a la necesidad de las personas de tener dientes blancos, 
-                    algo que fue asi historicamnete. En el mercado hay diferentes productos 
+                    algo que fue asi históricamente. En el mercado hay diferentes productos 
                     blanqueadores que el odontólogo utilizará según la estrategia más conveniente.
                 </p>
             </div>
