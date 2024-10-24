@@ -56,6 +56,14 @@
     margin: 0;
 }
 
+.error {
+    position: absolute;
+    bottom: -16px;
+    left: 1vw;
+    font-size: 12px;
+    color: crimson;
+}
+
 .textarea {
     height: 64px;
     border: none;
@@ -87,6 +95,27 @@
 .button:hover {
     background-color: var(--BrandLight);
     /* border: 1px solid var(--BrandDark); */
+    color: var(--bg);
+}
+
+.disabled {
+    background-color: lightgrey;
+    border: none;
+    padding: 15px;
+    max-width: max-content;
+    color: #222222;
+    align-self: flex-end;
+}
+
+.success {
+    background-color: rgb(17, 164, 17);
+    font-weight: 700;
+    color: var(--bg);
+}
+
+.success:hover {
+    background-color: rgb(17, 164, 17);
+    font-weight: 700;
     color: var(--bg);
 }
 
