@@ -1,12 +1,10 @@
-import { Inter, Lato, Mulish, Open_Sans } from "next/font/google";
+import { Lato, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "./ui/components/Navbar/Navbar";
 import localFont from 'next/font/local';
 
-const inter = Inter({ subsets: ["latin"] });
-const mulish = Mulish({ subsets: ["latin"], display: 'swap', weight: ['300', '400', '500', '700', '900'], });
-const openSans = Open_Sans({ subsets: ["latin"], display: 'swap', weight: ['300', '400', '500', '600', '700'], });
 const lato = Lato({ subsets: ["latin"], display: 'swap', weight: ['100', '300', '400', '700', '900'], });
+const outfit = Outfit({ subsets: ["latin"], display: 'swap', weight: ['100', '300', '400', '700', '900'], });
 
 const customFont = localFont({
   src: [
@@ -46,7 +44,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={lato.className}>
+      <body className={outfit.className}>
         <Navbar />
         {children}
       </body>

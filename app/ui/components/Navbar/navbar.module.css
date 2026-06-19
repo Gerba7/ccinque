@@ -10,6 +10,7 @@
     transition: height 0.5s ease;
     background: var(--bg);
     border-bottom: var(--BrandLight);
+    z-index: 9999;
 }
 
 .containerHeight {
