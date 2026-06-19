@@ -26,21 +26,21 @@ const ContactRow = () => {
                 <EmailIcon sizeize={24} color='inherit' />
                 <div className={styles.line}>
                   <h3 className={styles.subtitle}>EMAIL</h3>
-                  <h4 className={styles.iconText}>dra.cinque@gmail.com</h4>
+                  <h4 className={styles.iconText}>consultorio@baires.com</h4>
                 </div>
               </div>
               <div className={styles.icon}>
                 <LocalPhoneOutlinedIcon size={24} color='inherit' />
                 <div className={styles.line}>
-                  <h3 className={styles.subtitle}>TELEFONO</h3>
-                  <h4 className={styles.iconText}>+54 9 11 4805 3974</h4>
+                  <h3 className={styles.subtitle}>TELÉFONO</h3>
+                  <h4 className={styles.iconText}>+54 9 11 1234 5678</h4>
                 </div>
               </div>
               <div className={styles.icon}>
                 <LocationOnIcon size={24} color='inherit' />
                 <div className={styles.line}>
                   <h3 className={styles.subtitle}>DIRECCION</h3>
-                  <h4 className={styles.iconText}>Aguero 2160 6 E</h4>
+                  <h4 className={styles.iconText}>Evergreen 1234</h4>
                 </div>
               </div>
             </div>

@@ -2,8 +2,7 @@
 
 import Image from 'next/image';
 import styles from './office.module.css';
-import Consultorio from '../../../../../public/images/Consultorio.jpg';
-import Consultorio2 from '../../../../../public/images/Dra_Cristina_Cinque3.jpg';
+import Consultorio2 from '../../../../../public/images/Consultorio2.png';
 import { useEffect, useRef, useState } from 'react';
 
 
@@ -50,7 +49,7 @@ const Office = () => {
         <div className={styles.wrapper} ref={animationRef}>
             <div className={styles.left}>
                 <div className={`${styles.imgContainer} ${animate ? styles.slideIn : ''}`}>
-                    <Image src={Consultorio2} className={styles.img} alt='Dra. Cristina Cinque' priority />
+                    <Image src={Consultorio2} className={styles.img} alt='Consultorio' priority />
                 </div>
             </div>
             <div className={styles.right}>

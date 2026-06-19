@@ -1,8 +1,9 @@
 :root {
-  --bg: #ffffff;  /* f5f5f5 */
-  --BrandLightGray: #f7f7f7;  /*  #edf4fb */
-  --BrandLight: #AFC8CB;  /*  #edf4fb */
-  --BrandDark: #828C8D;  /* #06a3da */
+  --bg: #fafaf8;  /* f5f5f5 */
+  --BrandLightGray: #f1fcff;  /*  #edf4fb */
+  --BrandLight: #DDF7FF;  /*  #edf4fb */
+  --BrandDark: #4FB8D8;  /* #06a3da */
+  --BrandDark2: #1E6F8C;  /* #06a3da */
   --text: #202A2C;   /* #222222 */
 
   --jumboTitle: 7vw;
@@ -13,9 +14,10 @@
   --paragraph: .9vw;
 
   --mobileJumboTitle: 20vw;
+  --mobileSuperTitle: 9vw;
   --mobileTitle: 7.1vw;
   --mobileTitle2: 5.4vw;
-  --mobileSubtitle: 3.4vw;
+  --mobileSubtitle: 3.8vw;
   --mobileParagraph: 3vw;
 
 }

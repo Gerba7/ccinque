@@ -209,13 +209,14 @@
 @media  (max-width: 799px) {
 
     .container {
-        height: 110vh;
+        height: 100%;
         padding: 10vh 5vw;
     }
 
     .wrapper {
         align-items: center;
         flex: 1;
+        gap: 4vh;
     }
 
     .texts {
@@ -281,6 +282,16 @@
 
     .right {
         display: none;
+    }
+
+    .subtitle {
+        font-size: var(--mobileTitle2);
+        text-align: center;
+    }
+    
+    .title {
+        font-size: var(--mobileSuperTitle);
+        text-align: center;
     }
 
 }

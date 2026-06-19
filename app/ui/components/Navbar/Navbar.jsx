@@ -6,8 +6,8 @@ import Link from "next/link";
 import Image from 'next/image';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { usePathname, useRouter } from 'next/navigation';
-import Cristina_Cinque_Logo from '../../../../public/images/LOGOCC.png';
+import { usePathname } from 'next/navigation';
+import Logo from '../../../../public/images/LOGO.png';
 
 
 
@@ -62,7 +62,7 @@ const Navbar = () => {
               </div>
               <Link className={styles.logoLink} href='/'>
                   <h1 className={styles.title}>Cristina Cinque</h1>
-                  <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={Cristina_Cinque_Logo} alt='Cristina_Cinque_Logo' width={'auto'} height={navHeight ? 50 : 70} priority />
+                  <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={Logo} alt='Cristina_Cinque_Logo' width={'auto'} height={navHeight ? 50 : 70} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
@@ -72,7 +72,7 @@ const Navbar = () => {
               <Link href='#quienes-somos' className={styles.link}>Quiénes Somos</Link>
               <Link href='#consultorio' className={styles.link}>Consultorio</Link>
               <Link href='#objetivos' className={styles.link}>Objetivos</Link>
-              <Link href='#contacto' className={`${styles.button}`}>Contactanos</Link>
+              <Link href='#contacto' className={`${styles.button}`}>CONTACTANOS</Link>
           </div>
         </div>
       </div>

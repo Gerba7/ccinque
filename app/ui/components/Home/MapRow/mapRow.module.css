@@ -24,7 +24,7 @@
 .contactContainer {
     flex: 1;
     height: 100%;
-    background-color: var(--BrandLight);
+    background-color: var(--bg);
 }
 
 
@@ -35,7 +35,7 @@
     }
 
     .mapContainer {
-        margin-top: 5vh;
+        margin-top: 0vh;
     }
 
 }

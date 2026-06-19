@@ -167,7 +167,7 @@
 
     .container {
         height: 100vh;
-        padding: 5vh 5vw;
+        padding: 10vh 5vw;
     }
     
     .wrapper {
@@ -180,13 +180,22 @@
         justify-content: center;
     }
 
+    .topTitle {
+        font-size: var(--mobileSuperTitle);
+    }
+
+    .bottom {
+        flex-direction: column;
+        gap: 10vh;
+    }
+
     .subtitle {
         width: 100%;
         text-align: center;
     }
     
     .title {
-        font-size: 28px;
+        font-size: var(--mobileTitle);
         width: 100%;
         text-align: center;
     }
@@ -194,6 +203,7 @@
     .description {
         width: 100%;
         text-align: center;
+        font-size: var(--mobileSubtitle);
     }
 
 

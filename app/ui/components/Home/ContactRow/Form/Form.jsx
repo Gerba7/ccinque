@@ -18,7 +18,7 @@ const Form = () => {
 
     const onSubmit = async (data) => {
         try {
-            await submitForm(data);
+            await console.log('ok', data);
             return setSent(true);
         } catch (error) {
             console.error("Form submission failed:", error);

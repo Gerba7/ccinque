@@ -2,6 +2,9 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './whoWeAre2.module.css';
+import Dr from '@/public/images/Dr1.png'
+import Dr2 from '@/public/images/Dr2.png'
+import Image from 'next/image';
 
 
 
@@ -52,44 +55,43 @@ const WhoWeAre2 = () => {
             <div className={styles.wrapper} >
                 {/* <div className={styles.right}>
                     <div className={`${styles.imgContainer} `}>
-                        <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dra. Cristina Cinque' priority/>
+                        <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dr' priority/>
                     </div>
                 </div> */}
                 <div className={styles.left}>
                     {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
-                    {/* <div className={styles.icon}>
-                        <Image className={styles.img} src={Dra} alt='Blanqueamientos' />
-                    </div>   */}
-                    <h1 className={styles.title}>OD. CRISTINA CINQUE</h1>
+                    <div className={styles.icon}>
+                        <Image className={styles.img} src={Dr} alt='Blanqueamientos' />
+                    </div>  
+                    <h1 className={styles.title}>OD. VALERIA MORENO</h1>
                     <p className={styles.description} ref={animationRef}>
-                        Odontóloga Cristina Cinque
-                        egresada de la UBA en el año 1985.
-                        Especialista en Odontopediatría.
-                        Docente en la Cátedra Odontología Preventiva y Comunitaria (año 1985 a 2010)
-                        y en la Asociación Odontológica Argentina (año 2000 a 2010).
-                        <br/>Titular de cursos de la especialidad. 
+                        Odontóloga Valeria Moreno egresada de la UBA en el año 1992. 
+                        <b> Especialista en Odontología Integral y Estética Dental. </b>
+                        Se desempeñó como docente auxiliar en la Cátedra de Clínica 
+                        Integrada durante más de 15 años y participó en programas 
+                        de prevención bucal comunitaria. Titular de cursos orientados 
+                        a estética, prevención y atención personalizada del paciente adulto.
                     </p>
                 </div>
             </div>
             <div className={styles.wrapper} >
                 {/* <div className={styles.right}>
                     <div className={`${styles.imgContainer} `}>
-                        <Image src={Dra_Cristina_Cinque3} className={styles.img} alt='Dra. Cristina Cinque' priority />
+                        <Image src={Dr} className={styles.img} alt='Dr2' priority />
                     </div>
                 </div> */}
                 <div className={styles.left}>
                     {/* <h3 className={styles.subtitle}>QUIENES SOMOS</h3> */}
-                    {/* <div className={styles.icon}>
-                        <Image className={styles.img} src={Dr} alt='Blanqueamientos' />
-                    </div>   */}
-                    <h1 className={styles.title}>OD. E. J. BANFI</h1>
+                    <div className={styles.icon}>
+                        <Image className={styles.img} src={Dr2} alt='Blanqueamientos' />
+                    </div>  
+                    <h1 className={styles.title}>OD. MARTÍN ALVAREZ</h1>
                     <p className={styles.description} ref={animationRef}>
-                        Odontólogo E. J. Banfi
-                        egresado de la UBA en el año 1985.
-                        Docente auxiliar en Prótesis de mediana y alta complejidad - USAL
-                        35 años en Rehabilitación Oral en clínicas y consultorio privado.
-                        Expositor en Congresos.
-                        Rehabilitación Oral analógica y digital - Función y estética.
+                        Odontólogo Martín Alvarez egresado de la Universidad del Salvador en el año 1990. 
+                        <b> Especialista en Rehabilitación Oral, Prótesis fija y tratamientos restauradores </b> 
+                        de mediana y alta complejidad. Más de 30 años de experiencia en clínicas odontológicas 
+                        y consultorio privado. Expositor en jornadas profesionales sobre función, estética 
+                        y planificación digital de tratamientos.
                     </p>
                 </div>
             </div>

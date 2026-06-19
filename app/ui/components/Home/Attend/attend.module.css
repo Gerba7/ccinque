@@ -7,7 +7,7 @@
     padding: 0vh 15vw;
     justify-content: center;
     position: relative;
-    background-color: var(--bg);
+    background-color: #ffffff;
 }
 
 .scrollOffset {
@@ -105,14 +105,28 @@
         padding: 10vh 5vw;
     }
 
+    .subtitle {
+        font-size: var(--mobileTitle);
+        margin-bottom: 10vh;
+    }
+    
     .title {
-        font-size: 28px;
+        font-size: var(--mobileTitle);
+    }
+    
+    .description {
+        font-size: var(--mobileParagraph);
+        width: 100%;
+
     }
 
-    .description {
-        font-size: 16px;
-        width: 80%;
+    .img {
+        width: 70vw;
+        height: auto;
+    }
 
+    .wrapper {
+        padding: 0;
     }
 
 }

@@ -4,9 +4,7 @@ import Link from 'next/link';
 import styles from './howWeWork.module.css';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import Consultorio from '../../../../../public/images/Consultorio1.jpg';
-import Doctores from '../../../../../public/images/doctors1.png';
-import Waves from '../../../../../public/images/wavesOpacity.svg';
+import Consultorio from '../../../../../public/images/Consultorio1.png';
 
 
 

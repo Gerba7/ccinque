@@ -90,12 +90,14 @@
     align-self: flex-end;
     cursor: pointer;
     font-size: var(--paragraph);
+    transition: color .3s ease, background-color .3s ease;
+    font-weight: 700;
+    border-radius: 8px;
 }
 
 .button:hover {
     background-color: var(--BrandLight);
-    /* border: 1px solid var(--BrandDark); */
-    color: var(--bg);
+    color: var(--BrandDark);
 }
 
 .disabled {
@@ -125,6 +127,15 @@
     .top {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 4vw;
+    }
+
+    .input {
+        font-size: var(--mobileParagraph);
+    }
+
+    .button {
+        align-self: center;
+        font-size: var(--mobileParagraph);
     }
 
 }
