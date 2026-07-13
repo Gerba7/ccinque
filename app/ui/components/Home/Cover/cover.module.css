@@ -108,7 +108,7 @@
     -o-object-fit: cover;
     object-fit: cover;
     background: var(--bg);
-    opacity: .5;
+    opacity: .3;
   }
 
   @keyframes height {
