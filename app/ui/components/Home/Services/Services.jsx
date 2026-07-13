@@ -24,7 +24,7 @@ const Value = () => {
                 <div className={styles.icon}>
                     <Image className={styles.img} src={Odontopediatria} alt='Odontopediatria' />
                 </div>
-                <h3 className={styles.serviceTitle}>ODONTOPEDIATRÍA</h5>
+                <h3 className={styles.serviceTitle}>ODONTOPEDIATRÍA</h3>
                 <p className={styles.text}>
                     Actualmente se considera el crecimiento y desarrollo físico, 
                     mental y emocional de los niños como un todo, en el que el 
@@ -37,7 +37,7 @@ const Value = () => {
                 <div className={styles.icon}>
                     <Image className={styles.img} src={Blanqueamientos} alt='Blanqueamientos' />
                 </div>  
-                <h3 className={styles.serviceTitle}>BLANQUEAMIENTOS</h5>
+                <h3 className={styles.serviceTitle}>BLANQUEAMIENTOS</h3>
                 <p className={styles.text}>
                     Los blanqueamientos son tratamientos conservadores que surgen 
                     como respuesta a la necesidad de las personas de tener dientes blancos, 
@@ -49,7 +49,7 @@ const Value = () => {
                 <div className={styles.icon}>
                     <Image className={styles.img} src={Periodoncia} alt='Periodoncia' />
                 </div>
-                <h3 className={styles.serviceTitle}>PERIODONCIA</h5>
+                <h3 className={styles.serviceTitle}>PERIODONCIA</h3>
                 <p className={styles.text}>
                     Esta rama de la odontología se ocupa del diagnóstico, prevención y 
                     tratamiento de las enfermedades que afectan la estructura de soporte 
@@ -60,7 +60,7 @@ const Value = () => {
                 <div className={styles.icon}>
                     <Image className={styles.img} src={Protesis} alt='Protesis' />
                 </div>
-                <h3 className={styles.serviceTitle}>PRÓTESIS</h5>
+                <h3 className={styles.serviceTitle}>PRÓTESIS</h3>
                 <p className={styles.text}>
                     Esta especialidad rehabilita los problemas estomatognáticos de las 
                     personas que presentan pérdidas de piezas dentarias, devolviendo función 
@@ -71,7 +71,7 @@ const Value = () => {
                 <div className={styles.icon}>
                     <Image className={styles.img} src={Implantes} alt='Implantes' />
                 </div>
-                <h3 className={styles.serviceTitle}>IMPLANTES</h5>
+                <h3 className={styles.serviceTitle}>IMPLANTES</h3>
                 <p className={styles.text}>
                     Esta especialidad diagnostica, planifica y ejecuta a través de 
                     una cirugía, la colocación de implantes que reemplazarán las raíces 
@@ -84,7 +84,7 @@ const Value = () => {
                 <div className={styles.icon}>
                     <Image className={styles.img} src={Estetica} alt='Estetica' />
                 </div>
-                <h3 className={styles.serviceTitle}>ESTÉTICA</h5>
+                <h3 className={styles.serviceTitle}>ESTÉTICA</h3>
                 <p className={styles.text}>
                     La estética es la especialidad que soluciona los problemas de salud bucal sin dejar
                     de lado el valor de la estética y que gracias a la aparición de materiales de primera
